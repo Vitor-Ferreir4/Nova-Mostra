@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dark-mode .nav, .dark-mode .footer, .dark-mode .footer-bottom {
+  background-color: #4b0082;
+}

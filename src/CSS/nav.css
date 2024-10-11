@@ -1,0 +1,62 @@
+.geralzao{
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: #F59CAE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    height: 60px;
+}
+
+.nav-itens{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-itens li{
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.3s;
+    color: white;
+    position: relative;
+    right: 85%;
+    margin-right: 50px;
+}
+
+.nav-itens li:hover{
+    text-decoration: underline;
+}
+
+.nav-itens img{
+    position: absolute;
+    right: 95.5%;
+    width: 50px;
+    top: 0.8%;
+    cursor: pointer;
+}
+
+.perfil-carro{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 92%;
+    gap: 20px;   
+}
+
+.perfil-carro img{
+    cursor: pointer;
+}
+
+.lua-botao{
+    position: absolute;
+    left: 88%;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+}

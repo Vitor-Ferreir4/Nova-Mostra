@@ -1,0 +1,76 @@
+.Home{
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.main img{
+    display: block;
+    position: absolute;
+}
+
+.textinho{
+    position: absolute;
+    color: black;
+    font-size: 52px;
+    line-height: 0.4;
+    right: 58%;
+    top: 38%;
+
+}
+
+.linha2{
+    position: relative;
+    right: 9%;
+}
+
+.linha3{
+    position: relative;
+    right: 20%;
+}
+
+.mulher1{
+    left: 48%;
+    top: 20%;
+}
+
+.botoes{
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    top: 80%;
+    left: 9.5%;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.botoes button{
+    font-size: 32px;
+    border-radius: 25px;
+    padding: 15px 60px;
+    cursor: pointer;
+    color: white;
+}
+
+.b-login{
+    background: linear-gradient(to right, #FFAFBF, #F86783);
+    border: none;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.b-login:hover{
+    transform: translateY(-5px);
+}
+
+
+.b-cadastro{
+    background-color: #6DBFA5;
+    border: none;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.b-cadastro:hover{
+    transform: translateY(-5px);
+}
